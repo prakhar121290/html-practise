@@ -1,0 +1,17 @@
+a{
+	color:white; text-decoration: none;
+}
+
+img {
+	padding: 20px;
+	height: 200px;
+	width:300 px;
+}
+
+div{
+	font-family: sans-serif;
+	width: 500px;
+	margin: auto;
+	background:red;
+	text-align:center;
+}

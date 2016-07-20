@@ -1,0 +1,20 @@
+li{
+	display:inline;
+	padding-right:10px;
+}
+
+body{
+	font-family:sans-serif;
+}
+
+ul a{
+	width:100px;
+	text-decoration:none;
+	color:red;
+}
+/* by doing a:hover we r making a pseudo class */
+ul a:hover{
+	text-decoration:underline;
+	color:black;
+	font-size:20px;
+}
