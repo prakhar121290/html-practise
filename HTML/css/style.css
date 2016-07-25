@@ -1,17 +1,222 @@
-a{
-	color:white; text-decoration: none;
+.videoplay{
+	width:100%;
+	height:100%;
+	z-index: -100;
+	background-size: cover;
+	transition: 1s opacity;
 }
 
-img {
-	padding: 20px;
-	height: 200px;
-	width:300 px;
+body{
+	background: url(../img/images.jpg) no-repeat fixed;
+	background-size:100% 100%;
 }
 
-div{
+.head{
+	text-align: left;
+}
+
+.primary_menu{
+	box-sizing: border-box;
+	color:#555;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	margin-left: -10px;
+	
+}
+
+@keyframes cars1 {
+    00%{background:url(../img/Cars/download.jpg) no-repeat;}
+    20%{background:url(../img/Cars/download.jpg) no-repeat;}
+    40%{background:url(../img/Cars/images1.jpg) no-repeat;}
+	60%{background:url(../img/Cars/images3.jpg) no-repeat;}
+	80%{background:url(../img/Cars/images2.jpg) no-repeat;}
+}
+
+#cars{
+	margin-top:50px;
+	position: relative;
+	animation-name: cars1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+#cars h4{
+	margin:-50px 20px 0 0;
 	font-family: sans-serif;
-	width: 500px;
-	margin: auto;
-	background:red;
-	text-align:center;
+	text-align: center;
+	color: white;
+}
+
+@keyframes flowers1 {
+    00%{background:url(../img/Flowers/images.jpg) no-repeat;}
+    20%{background:url(../img/Flowers/images.jpg) no-repeat;}
+    40%{background:url(../img/Flowers/images1.jpg) no-repeat;}
+    60%{background:url(../img/Flowers/images2.jpg) no-repeat;}
+    80%{background:url(../img/Flowers/images3.jpg) no-repeat;}
+ }
+
+#flowers{
+	margin-top:50px;
+	position: relative;
+	animation-name: flowers1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+#flowers h4{
+	margin:-50px 20px 0 0;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+}
+
+@keyframes nature1 {
+    00%{background:url(../img/Nature/image.jpg) no-repeat;}
+    20%{background:url(../img/Nature/image.jpg) no-repeat;}
+    40%{background:url(../img/Nature/image4.jpg) no-repeat;}
+    60%{background:url(../img/Nature/image2.jpg) no-repeat;}
+    80%{background:url(../img/Nature/image3.jpg) no-repeat;}
+ }
+
+#nature{
+	margin-top:50px;
+	position: relative;
+	animation-name: nature1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+#nature h4{
+	margin:-50px 20px 0 0;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+}
+
+@keyframes buildings1 {
+    00%{background:url(../img/Buildings/images.jpg) no-repeat;}
+    20%{background:url(../img/Buildings/images.jpg) no-repeat;}
+    40%{background:url(../img/Buildings/images1.jpg) no-repeat;}
+    60%{background:url(../img/Buildings/images2.jpg) no-repeat;}
+    80%{background:url(../img/Buildings/images3.jpg) no-repeat;}
+ }
+
+#buildings{
+	margin-top:50px;
+	position: relative;
+	animation-name: buildings1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+#buildings h4{
+	margin:-50px 20px 0 0;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+}
+
+nav li{
+	display: inline;
+	margin:0 10px 0 0;
+	text-align: center;
+}
+
+header a{
+	text-decoration: none;	
+	color:white;
+	font-family: Lato, sans-serif;
+	font-size: 25px;
+}
+
+header a:hover{
+	color:grey;
+	cursor: pointer;
+}
+
+aside{
+	background: url(../img/Nature/image1.jpg);
+	margin-top: 50px;
+	height:198px;
+	max-width:260px;
+	display: inline;
+	text-align: center;
+	color:lightyellow;
+	font-size: 16px;
+}
+
+aside a{
+	text-decoration: none;	
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	color:lightyellow;
+}
+
+aside a:hover{
+	color:black;
+	cursor:pointer;
+}
+
+.asideclass{
+	margin-top: 15px;
+}
+
+.primary{
+	background: transparent;
+}
+
+header{
+	background:transparent;
+	margin:auto; 
+}
+
+header h1{
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+}
+
+.main{
+	overflow: hidden;
+}
+
+section div
+{
+	padding: 10px;
+	margin: 30px 0;
+}
+
+#learn_more{
+	clear:both;
+	padding: auto;
+	color: lightyellow;
+	background: grey;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin:0 0 0 205px;
+	width: 900px;
+}
+
+#copyrights {
+    background-color: rgba(0,0,0,0.6);
+    color: rgba(255,255,255,0.25);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    padding: 40px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.col_half{
+	background: transparent;
+    color: #FFF;
 }

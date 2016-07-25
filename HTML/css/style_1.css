@@ -1,0 +1,161 @@
+.videoplay{
+	width:100%;
+	height:100%;
+	z-index: -100;
+	background-size: cover;
+	transition: 1s opacity;
+}
+
+body{
+	background: url(../img/images.jpg) no-repeat fixed;
+	background-size:100% 100%;
+}
+
+.head{
+	text-align: left;
+	color: white;
+	padding-left: 7px;
+}
+
+.main{
+	height: 520px;
+}
+
+form{
+	margin:50px 205px 0 0;
+}
+
+.contact{
+	margin-left:140px;	
+}
+
+.primary_menu{
+	box-sizing: border-box;
+	color:#555;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	margin-left: -18px;
+}
+
+input{
+	border: 1px solid rgba(169, 169, 169, 1);
+    color: #2C2C2B;
+    margin: 0 0 5px;
+    width: 217px;
+    text-align: left;
+}
+
+#submit{
+	text-align: center;
+}
+
+.quote{
+	text-align-last: left;
+}
+
+blockquote h3{
+	text-align-last: left;
+}
+
+nav li{
+	display: inline;
+	margin:0 10px 0 0;
+	text-align: center;
+}
+
+header a{
+	text-decoration: none;	
+	color:white;
+	font-family: Lato, sans-serif;
+	font-size: 25px;
+}
+
+header a:hover{
+	color:grey;
+	cursor: pointer;
+}
+
+aside{
+	margin-top: 20px;
+	height:198px;
+	max-width:260px;
+	display: inline;
+	text-align: center;
+	color:black;
+	font-size: 16px;
+}
+
+aside a{
+	text-decoration: none;	
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	color:black;
+}
+
+aside a:hover{
+	color:black;
+	cursor:pointer;
+}
+
+.asideclass{
+	margin-top: 15px;
+}
+
+.primary{
+	background: transparent;
+}
+
+header{
+	background:transparent;
+	margin:auto; 
+}
+
+header h1{
+	font-family: sans-serif;
+	font-style: italic;
+	color: black;
+}
+
+.main{
+	clear:both;
+	color: black;
+	background: transparent;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin:0 0 0 205px;
+	width: 900px;
+}
+
+section div
+{
+	padding: 10px;
+	margin: 30px 0;
+}
+
+#learn_more{
+	clear:both;
+	padding-left: 5px;
+	color: black;
+	background: grey;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+#copyrights {
+    background-color: rgba(0,0,0,0.6);
+    color: rgba(255,255,255,0.25);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    padding: 40px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.col_half{
+	background: transparent;
+    color: #FFF;
+}
+	
